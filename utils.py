@@ -3,7 +3,7 @@ from measures.measure_utils import MEASURE_MAP
 
 def get_args():
     parser = argparse.ArgumentParser(description='DINO')
-    parser.add_argument('-d', '--dataset', type=str, default='p2p-Gnutella08', choices=['hiv_transmission', 'Email-EuAll', 'p2p-Gnutella08', 'soc-Epinions1', 'WikiTalk', 'Wiki-Vote'],
+    parser.add_argument('-d', '--dataset', type=str, default='p2p-Gnutella08', choices=['hiv_transmission', 'Email-EuAll', 'p2p-Gnutella08', 'erdos_renyi', 'soc-Epinions1', 'WikiTalk', 'Wiki-Vote'],
                         help='the directed network dataset')
     parser.add_argument('-k', '--k', type=int, default=None, help='number of nodes for immunization')
     parser.add_argument('-r', '--r', type=int, default=2,
