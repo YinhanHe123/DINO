@@ -43,3 +43,8 @@ lcov.info
 # Cache
 .ruff_cache
 .mypy_cache
+
+
+# dataset files
+**/data/*.txt
+**/data/*.tsv
