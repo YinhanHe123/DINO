@@ -10,8 +10,6 @@ This is the official implementation of the proposed model 'DINO' from the paper 
 
 **Framework Overview**:
 
-Framework Overview:
-
 The DINO (DIrected NetwOrk epidemic containment) framework is a comprehensive approach to epidemic containment in directed networks. It begins with a theoretical analysis that establishes the epidemic threshold condition for directed networks, provides a tight bound for spectral radius estimation, and proves the relationship between the spectral radius of key strongly connected components (KSCCs) and the entire network. The core of DINO is its node selection algorithm, which identifies the KSCC and iteratively selects nodes for removal using a custom node score function. This function efficiently approximates the reduction in spectral radius resulting from node removal, based on the derived spectral radius estimation. The framework employs an iterative process, repeating node selection and removal for a specified budget of k nodes, while updating the network structure and KSCC after each removal. By leveraging these theoretical insights and algorithmic components, DINO efficiently identifies critical nodes in directed networks for maximal epidemic containment, avoiding the use of matrix perturbation methods unsuitable for directed networks. The result is an asymptotically optimal solution with linear time complexity, making DINO both effective and computationally efficient for large-scale directed networks.
 
 ![new_workflow-1](new_workflow-1.png)
