@@ -42,12 +42,11 @@ Note:
 
 Here is an example to run DINO
 
-
 ##### 1. Prepare environment
 Install the environment with ```pip install requirements.txt``` where the ```requirements.txt``` file is in the folder ```src```.
 
 ##### 3. Run code
-Run
+To play with our 'DINO', one may simply run
 ```
 python main.py --d [dataset] -k [node immunization budget]
 ```
