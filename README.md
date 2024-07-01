@@ -41,7 +41,7 @@ Note:
 Here is an example to run DINO
 
 ##### 1. Prepare environment
-Install the environment with ```pip install requirements.txt``` where the ```requirements.txt``` file is in the folder ```src```.
+Install the environment with ```conda env create -n graph --file environment.yml```.
 
 ##### 3. Run code
 To play with our 'DINO', one may simply run
